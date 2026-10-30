@@ -2,6 +2,10 @@
 
 ENTANGLE is a simulated disaster-response coordination console for Mumbai flood and heatwave scenarios. It takes citizen and field reports, keeps a versioned event history, computes credibility and priority with TypeScript rules, compares dispatch plans, and puts an operator between recommendations and any local approval action.
 
+**Public repository:** [github.com/sarthaky363-ux/entangle-app](https://github.com/sarthaky363-ux/entangle-app)
+
+**Live demo:** [sarthaky363-ux.github.io/entangle-app](https://sarthaky363-ux.github.io/entangle-app/)
+
 > **Prototype, not an emergency service.** Data, map coordinates, alerts, routes, resource inventories, and simulations are demonstration inputs. The app does not contact responders or send public messages.
 
 ## The problem

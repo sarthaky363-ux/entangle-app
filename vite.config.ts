@@ -119,6 +119,7 @@ function geminiAgentApiPlugin(): Plugin {
 
 export default defineConfig(() => {
   return {
+    base: process.env.GITHUB_ACTIONS === 'true' ? '/entangle-app/' : '/',
     plugins: [react(), tailwindcss(), geminiAgentApiPlugin()],
     resolve: {
       alias: {
